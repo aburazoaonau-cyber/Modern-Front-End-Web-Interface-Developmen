@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Food &amp; Co. | Contact Us</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container header-content">
+
+      <a class="logo" href="index.html">
+        Food &amp; Co.
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        Menu
+      </button>
+
+      <nav class="navigation" id="main-navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-title">
+      <div class="container">
+
+        <p class="tagline">We would love to hear from you.</p>
+
+        <h1>Contact Us</h1>
+
+        <p>
+          Contact Food &amp; Co. for questions, feedback,
+          dietary enquiries, or group bookings.
+        </p>
+
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-grid">
+
+        <div class="contact-details">
+
+          <h2>Visit Food &amp; Co.</h2>
+
+          <p>
+            123 Lonsdale Street<br>
+            Canberra ACT 2601
+          </p>
+
+          <p>
+            Phone:
+            <a href="tel:+61261234567">(02) 6123 4567</a>
+          </p>
+
+          <p>
+            Email:
+            <a href="mailto:hello@foodandco.com.au">
+              hello@foodandco.com.au
+            </a>
+          </p>
+
+          <h3>Opening Hours</h3>
+
+          <p>
+            Monday–Thursday: 11:00 am – 9:00 pm<br>
+            Friday–Saturday: 11:00 am – 10:00 pm<br>
+            Sunday: 11:00 am – 8:00 pm
+          </p>
+
+        </div>
+
+        <form id="contact-form">
+
+          <h2>Send Us a Message</h2>
+
+          <p>Fields marked with * are required.</p>
+
+          <label for="name">
+            Full name *
+          </label>
+
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+          >
+
+          <label for="email">
+            Email address *
+          </label>
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+          >
+
+          <label for="subject">
+            Subject *
+          </label>
+
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            required
+          >
+
+          <label for="message">
+            Message *
+          </label>
+
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+          ></textarea>
+
+          <button class="button" type="submit">
+            Send Message
+          </button>
+
+          <p
+            id="form-message"
+            class="form-message"
+            aria-live="polite"
+          ></p>
+
+        </form>
+
+      </div>
+    </section>
+
+<section class="faq-section">
+  <div class="container">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <button
+      class="faq-question"
+      type="button"
+      aria-expanded="false"
+      aria-controls="faq-answer-1"
+    >
+      Do I need a reservation?
+    </button>
+
+    <div class="faq-answer" id="faq-answer-1">
+      <p>
+        Walk-ins are welcome, but reservations are recommended
+        for evenings, weekends, and groups.
+      </p>
+    </div>
+
+    <button
+      class="faq-question"
+      type="button"
+      aria-expanded="false"
+      aria-controls="faq-answer-2"
+    >
+      Do you offer vegetarian options?
+    </button>
+
+    <div class="faq-answer" id="faq-answer-2">
+      <p>
+        Yes. We offer vegetarian options, and selected meals
+        can be adjusted for vegan guests.
+      </p>
+    </div>
+
+    <button
+      class="faq-question"
+      type="button"
+      aria-expanded="false"
+      aria-controls="faq-answer-3"
+    >
+      Is takeaway available?
+    </button>
+
+    <div class="faq-answer" id="faq-answer-3">
+      <p>
+        Yes. Please call us during opening hours to place
+        a takeaway order.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+
+      <h2>Food &amp; Co.</h2>
+
+      <p>Every meal is better together.</p>
+
+      <p>123 Lonsdale Street, Canberra ACT 2601</p>
+
+      <p>
+        Phone:
+        <a href="tel:+61261234567">(02) 6123 4567</a>
+      </p>
+
+      <p>
+        Email:
+        <a href="mailto:hello@foodandco.com.au">
+          hello@foodandco.com.au
+        </a>
+      </p>
+
+      <p>&copy; 2026 Food &amp; Co.</p>
+
+    </div>
+  </footer>
+
+</body>
+</html>

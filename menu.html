@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Food &amp; Co. | Menu</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container header-content">
+
+      <a class="logo" href="index.html">
+        Food &amp; Co.
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        Menu
+      </button>
+
+      <nav class="navigation" id="main-navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-title">
+      <div class="container">
+
+        <p class="tagline">Fresh flavours for every table.</p>
+
+        <h1>Our Menu</h1>
+
+        <p>
+          Explore our starters, mains, desserts, and drinks.
+        </p>
+
+      </div>
+    </section>
+
+    <section class="menu-section">
+      <div class="container">
+
+        <h2>Explore Our Dishes</h2>
+
+        <div class="filter-buttons">
+
+          <button
+            class="filter active"
+            type="button"
+            data-category="all"
+          >
+            All
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-category="starter"
+          >
+            Starters
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-category="main"
+          >
+            Mains
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-category="dessert"
+          >
+            Desserts
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-category="drink"
+          >
+            Drinks
+          </button>
+
+        </div>
+
+        <div class="menu-grid">
+
+          <article class="menu-item" data-category="starter">
+            <h3>Garlic Herb Bread</h3>
+            <p>
+              Toasted bread with garlic butter, herbs, and parmesan.
+            </p>
+            <p class="price">$8.00</p>
+          </article>
+
+          <article class="menu-item" data-category="starter">
+            <h3>Tomato Bruschetta</h3>
+            <p>
+              Tomatoes, basil, olive oil, and balsamic glaze.
+            </p>
+            <p class="price">$11.00</p>
+          </article>
+
+          <article class="menu-item" data-category="main">
+            <h3>Creamy Mushroom Pasta</h3>
+            <p>
+              Fettuccine, mushrooms, parmesan, herbs, and creamy sauce.
+            </p>
+            <p class="price">$20.00</p>
+          </article>
+
+          <article class="menu-item" data-category="main">
+            <h3>Grilled Chicken Burger</h3>
+            <p>
+              Grilled chicken, salad, house sauce, and seasoned fries.
+            </p>
+            <p class="price">$15.00</p>
+          </article>
+
+          <article class="menu-item" data-category="main">
+            <h3>Margherita Pizza</h3>
+            <p>
+              Tomato, mozzarella, basil, and olive oil.
+            </p>
+            <p class="price">$19.00</p>
+          </article>
+
+          <article class="menu-item" data-category="dessert">
+            <h3>Chocolate Lava Cake</h3>
+            <p>
+              Warm chocolate cake served with vanilla ice cream.
+            </p>
+            <p class="price">$12.00</p>
+          </article>
+
+          <article class="menu-item" data-category="dessert">
+            <h3>Classic Tiramisu</h3>
+            <p>
+              Espresso sponge, mascarpone cream, and cocoa.
+            </p>
+            <p class="price">$11.00</p>
+          </article>
+
+          <article class="menu-item" data-category="drink">
+            <h3>Fresh Lemonade</h3>
+            <p>
+              House-made lemonade with fresh lemon and mint.
+            </p>
+            <p class="price">$6.00</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+
+      <h2>Food &amp; Co.</h2>
+
+      <p>Every meal is better together.</p>
+
+      <p>123 Lonsdale Street, Canberra ACT 2601</p>
+
+      <p>
+        Phone:
+        <a href="tel:+61261234567">(02) 6123 4567</a>
+      </p>
+
+      <p>
+        Email:
+        <a href="mailto:hello@foodandco.com.au">
+          hello@foodandco.com.au
+        </a>
+      </p>
+
+      <p>&copy; 2026 Food &amp; Co.</p>
+
+    </div>
+  </footer>
+
+</body>
+</html>
